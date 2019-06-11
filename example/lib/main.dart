@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notification_plugin/notification_plugin.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
               RaisedButton(
                 child: Text("init"),
                 onPressed: (){
-                  NotificationPlugin.init(19,20);
+
                 },
               )
             ],
